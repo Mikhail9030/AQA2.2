@@ -26,13 +26,13 @@ public class PostmanEchoTest {
     void shouldReturnCurrency(){
         given()
                 .baseUri("https://postman-echo.com")
-                .body("Currency USD")
+                .body("Currency:USD")
                 .when()
                 .post("/post")
                 .then()
                 .statusCode(200)
                 .contentType(ContentType.JSON)
-                .body("USD", equalTo("Currency:USD"))
+                .body("data", equalTo("Currency:USD"))
         ;
 
     }
@@ -40,7 +40,7 @@ public class PostmanEchoTest {
     void shouldReturnId(){
         given()
                 .baseUri("https://postman-echo.com")
-                .body("some data")
+                .body("Id:3")
                 .when()
                 .post("/post")
                 .then()

@@ -1,1 +1,1 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/6p7by72v4wfpbsap?svg=true)](https://ci.appveyor.com/project/Mikhail9030/aqa2-1)
+[![Build status](https://ci.appveyor.com/api/projects/status/39c0nn077u8onp94/branch/master?svg=true)](https://ci.appveyor.com/project/Mikhail9030/aqa2-2/branch/master)
